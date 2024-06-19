@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Talent Acquisition</title>
+    <link rel = "shortcut icon" href="../images/favicon.ico" />
+    <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+
+     .imp_list {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .imp_list li {
+      margin-bottom: 10px;
+    }
+
+    .imp_list li a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #8b0020;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+	 .imp_list li a:hover {
+      background-color: rgb(165, 42, 61);
+    }
+    .separator {
+      border-top: 1px solid #dddddd;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #dddddd;
+    }
+
+.events-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .event-tile {
+            position: relative;
+            margin: 0 10px 20px 10px;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for tiles */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+ .event-tile:hover {
+            transform: scale(1.05);
+        }
+
+        .event-details {
+            padding: 15px;
+            transition: filter 0.3s ease-in-out;
+        }
+
+        .event-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transition: filter 0.3s ease-in-out;
+        }
+
+        .event-description {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .event-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .event-tile:hover .event-buttons {
+            opacity: 1;
+        }
+    @media (max-width: 700px) {
+        .logo img {
+            width: 50px;
+        }
+    }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img src="infinite_logo.png" alt="Infinite Logo"></a>
+    </div>
+    <div class="separator"></div>
+	  <h1>Infinite Talent Acquisition</h1>
+<h3 align = 'center'><b><u>Candidate Activity:</u></b></h3>
+	  <div class="events-container">
+	<div class="event-tile">
+            <div class="event-details">
+                <div class="event-title" align='center'>Resume Builder</div>
+                <div class="event-description" align='center'>(Only One Template Available ATS Trackable)</div>
+                <div><ul class ='imp_list'>
+                    <li><a href='/'>View</a></li>
+		</ul></div>
+	    </div>
+	</div>
+	  <div class="event-tile">
+            <div class="event-details">
+                <div class="event-title" align='center'>Job Descriptions Generator</div>
+                <!--<div class="event-description" align='center'>(Updated upto 3-1)</div>-->
+                <div><ul class ='imp_list'>
+                     <li><a href='/'>View</a></li>
+		</ul></div>
+	  </div></div><div class="separator"></div>
+    <div class="footer">
+      &copy; Infinite Computer Solutions, 2024
+    </div>
+  </div>
+</body>
+</html>
